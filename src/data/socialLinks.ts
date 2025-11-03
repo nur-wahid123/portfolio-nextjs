@@ -35,28 +35,10 @@ const socialLinks: ISocialLinkItem[] = [
     text: Strings.instagramUsername,
   },
   {
-    name: Strings.twitter,
-    url: Strings.twitterLink,
-    icon: faXTwitter,
-    text: Strings.twitterUsername,
-  },
-  {
     name: Strings.email,
     url: Strings.primaryEmailLink,
     icon: faEnvelope,
     text: Strings.primaryEmail,
-  },
-  {
-    name: Strings.buyMeACoffee,
-    url: Strings.buyMeACoffeeLink,
-    icon: "/images/buy-me-a-coffee.png",
-    text: Strings.buyMeACoffeeUsername,
-  },
-  {
-    name: Strings.koFi,
-    url: Strings.koFiLink,
-    icon: "/images/ko-fi.png",
-    text: Strings.buyMeACoffeeUsername,
   },
 ];
 
