@@ -4,6 +4,7 @@ import { ReactNode } from "react";
 import { Metadata } from "next";
 import dynamic from "next/dynamic";
 import { navMenus } from "@/data/navMenus";
+import FacebookPixel from "@/components/FacebookPixel";
 
 const poppins = Poppins({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
@@ -103,6 +104,7 @@ const RootLayout = ({ children }: Readonly<{ children: ReactNode }>) => {
         <FloatingNavbar className="app_nav" navItems={navMenus} />
         <main>{children}</main>
         <ScrollToTop />
+        <FacebookPixel />
       </body>
     </html>
   );
